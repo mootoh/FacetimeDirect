@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let contact = NSBundle.mainBundle().objectForInfoDictionaryKey("contact") as! String
             let url = NSURL(string:"facetime://" + contact)
             application.openURL(url!)
-            abort();
+//            abort();
         })
     }
 }
